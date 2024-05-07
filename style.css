@@ -137,8 +137,7 @@ nav ul *{
     background-color: #032B69;
     display: flex;
     justify-content: space-evenly;
-    max-height: 600px;
-    align-items: center;
+    height: 700px;
 }
 
 /* .iphone-container{
@@ -155,6 +154,7 @@ nav ul *{
 .img-text-container{
     display: flex;
     flex-direction: column;
+    justify-content: end;
     
 }
 
@@ -165,7 +165,8 @@ nav ul *{
 
 .blue-para{
     color: white;
-    font-size: 1.125rem;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .b-list {
@@ -174,7 +175,9 @@ nav ul *{
 }
 
 .b-list li{
-    font: 1.3rem;
+    font-size: 24px;
+    font-weight: 400;
+
 }
 .first-image{
     max-height: 600px;
