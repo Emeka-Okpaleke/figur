@@ -7,8 +7,12 @@ body{
 }
 
 .container{
-position: relative;
+/* position: relative;  */
+max-width: 1240px;
+margin: 0 auto;
+
 }
+
 
 a{
     text-decoration: none;
@@ -16,7 +20,7 @@ a{
 .header-container {
     /* border: 1px solid blue; */
     display: flex;
-    max-width: 86%;
+    /* max-width: 86%; */
     justify-content: space-between;
     padding-left: 36px;
     padding-right: 32px;
@@ -116,7 +120,7 @@ nav ul *{
     padding-right: 32px; */
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-inline: 50px;
     padding-top: 40px;
 }
@@ -133,8 +137,25 @@ nav ul *{
     background-color: #032B69;
     display: flex;
     justify-content: space-evenly;
-    max-height: 600px;
-    align-items: center;
+    height: 700px;
+}
+
+/* .iphone-container{
+    display: flex;
+} */
+
+.blue-container-write{
+    max-width: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
 }
 
 .bH{
@@ -144,7 +165,8 @@ nav ul *{
 
 .blue-para{
     color: white;
-    font-size: 1.125rem;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .b-list {
@@ -153,7 +175,9 @@ nav ul *{
 }
 
 .b-list li{
-    font: 1.3rem;
+    font-size: 24px;
+    font-weight: 400;
+
 }
 .first-image{
     max-height: 600px;
@@ -181,6 +205,8 @@ nav ul *{
 .first-write-up p{
     line-height: 1.7;
     width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
 }
 
 .first-write-up h1{
