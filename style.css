@@ -8,12 +8,11 @@ body{
 
 .container{
 /* position: relative;  */
+max-width: 1240px;
+margin: 0 auto;
 
 }
 
-.width{
-    
-}
 
 a{
     text-decoration: none;
@@ -21,7 +20,7 @@ a{
 .header-container {
     /* border: 1px solid blue; */
     display: flex;
-    max-width: 86%;
+    /* max-width: 86%; */
     justify-content: space-between;
     padding-left: 36px;
     padding-right: 32px;
@@ -121,7 +120,7 @@ nav ul *{
     padding-right: 32px; */
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-inline: 50px;
     padding-top: 40px;
 }
@@ -140,6 +139,23 @@ nav ul *{
     justify-content: space-evenly;
     max-height: 600px;
     align-items: center;
+}
+
+/* .iphone-container{
+    display: flex;
+} */
+
+.blue-container-write{
+    max-width: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-text-container{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .bH{
@@ -186,6 +202,8 @@ nav ul *{
 .first-write-up p{
     line-height: 1.7;
     width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
 }
 
 .first-write-up h1{
