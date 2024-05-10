@@ -290,34 +290,53 @@ h3{
 
 .one{
     color: #DAA71A;
+    background: #FFF4D8;
 }
 
 .two{
     color: #DF5000;
+    background: #FFE0CF;
+
 }
 
 .three{
     color: #00A398;
+    background: #D8FAF8;
 }
 
 .four{
     color: #6D6DFF;
+    background: #EAEAFF;
 }
 
 .five{
     color: #8D40F0;
+    background: 
+    #ECDEFF;
 }
 
 .six{
     color: #C63DC9;
+    background: 
+    #FED4FF;
 }
 
 .seven{
-    color: #F03EA9;
+    color: #DD9932;
+    background: 
+    #FFE7C2;
 }
 
 .eight{
+    color: 
+    #F03EA9;
+    background: 
+    #FFEAF7;
+}
+
+.nine{
     color: #90B132;
+    background: #FFEAF7;
 }
 
 .CAC{
