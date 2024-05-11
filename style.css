@@ -6,12 +6,12 @@ body{
     width: 100%;
 }
 
-.container{
-/* position: relative;  */
+/* .container{
+position: relative; 
 max-width: 1240px;
 margin: 0 auto;
 
-}
+} */
 
 
 a{
@@ -122,7 +122,7 @@ nav ul *{
 
     display: flex;
     justify-content: space-between;
-    padding-inline: 50px;
+    padding-inline: 120px;
     padding-top: 40px;
 }
 
@@ -260,7 +260,7 @@ h3{
 
 .multiple-icons{
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 400px);
     gap: 1rem;    
 }
 
@@ -344,16 +344,20 @@ h3{
     color: #032B69;
     ;
 }
+
 .third{
+    background-color: #F7FAFF;
+}
+
+.h3-img-container{
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
+    gap: 6%;
     display: flex;
-    background-color: #F7FAFF;
-    padding-top: 112;
-    padding-bottom: 112;
-    padding-left: 32px;
-    padding-right: 32px;
+    max-width: 1280px;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -362,7 +366,9 @@ h3{
     size: 20px;
 }
 .vault-take{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* gap: 2.25rem; */
 }
 
 .vault-pic{
@@ -375,9 +381,9 @@ h3{
     max-height: 600px;
 }
 
-.ote{
+/* .ote{
     padding: 20px;
-}
+} */
 .third-font{
     font-weight: 700;
     font-size: 1.5rem;
@@ -387,7 +393,7 @@ h3{
 .fourth{
     background-color: #2260FF;
     display: flex;
-    /* max-width: 1280px; */
+    max-width: 1280px;
     gap: 13%;
     padding-left: 2rem;
     padding-right: 2rem;
