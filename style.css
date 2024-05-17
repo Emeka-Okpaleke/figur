@@ -464,7 +464,7 @@ h6{
     justify-content: space-around;
     border-radius: 10px;
     background-color: #032B69;
-    padding: 13px;
+    padding: 10px 1px;
     color: white;
     font-size: smaller;
 }
