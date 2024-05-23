@@ -3,7 +3,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .container{
@@ -553,4 +554,90 @@ h6{
 
 .t{
     color: #032B69;
+}
+
+@media (min-width:800px) and (max-width: 1024px){
+    .container{
+        max-width: 72rem;
+    }
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .video{
+        max-width: 100%;
+    }
+    .first-image{
+        max-height: 600px;
+        max-width: 400px;
+        align-self: center;
+    }
+    .first-write-up{
+        font-size: 3.75rem;
+        color: #032B69;
+    }
+
+    .first-write-up p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
+    .sec{
+        align-self: center;
+    }
+    .download{
+        display: flex;
+        justify-content: center;
+    }
+    .multiple-icons{
+        grid-template-columns: repeat(2, 23rem);
+    }
+    .first-write-up h1{
+        text-align: center;
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+     
+    .first-blue{
+        /* padding-top: 128px; */
+        flex-direction: row-reverse;
+        overflow: hidden;
+        align-items: end;
+    }
+
+    .iphone-13-Pro{
+        margin-right: -348px;
+    }
+
+    .vault-pic{
+        width: 764px;
+    }
+
+    .h3-img-container{
+        flex-direction: column-reverse;
+        gap: 3.5rem;
+    }
+    .vault-take{
+        grid-template-columns: repeat(1, auto);
+    }
+    .third div p {
+        letter-spacing: -.03em;
+    }
+    .fourth{
+        flex-direction: column-reverse;
+        gap: 3.5rem;
+    }
+    .final{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 5rem;
+    }
+}
+@media  (max-width: 799px;){
+    .second-section{
+        display: flex;
+        flex-direction: column;
+    }
 }
