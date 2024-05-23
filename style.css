@@ -635,3 +635,9 @@ h6{
         gap: 5rem;
     }
 }
+@media  (max-width: 799px;){
+    .second-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
