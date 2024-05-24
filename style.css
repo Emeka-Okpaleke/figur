@@ -11,6 +11,7 @@ body{
 /* position: relative;  */
 max-width: 1180px;
 margin: 0 auto;
+padding:0 3rem;
 
 }
 
@@ -33,9 +34,14 @@ a{
     /* overflow: hidden; */
 }
 
+.hamburger{
+    display: none;
+}
+
 .nav-items-wrapper{
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .logo{
@@ -56,7 +62,7 @@ a{
 
 
 .head-nav{
-    display: flex;
+    /* display: flex; */
     gap: 20px;
     list-style: none;
     justify-content: space-between;
@@ -152,7 +158,7 @@ nav ul *{
     background-color: #032B69;
     display: flex;
     justify-content: space-evenly;
-    height: 700px;
+    max-height: fit-content;
 }
 
 /* .iphone-13-Pro{
@@ -211,11 +217,6 @@ nav ul *{
     
 }
 
-.first-write-up {
-    margin-top: 100px;
-    max-width: 600px;
-    text-wrap: wrap;
-}
 
 .first-write-up p{
     line-height: 1.7;
@@ -243,14 +244,18 @@ button{
 }
 
 .transforming{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
     font-size: 2rem;
     color: #032B69;
     font-weight: bold;
     padding-top: 5rem;
     padding-bottom: 3.5rem;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    
     /* padding-left: 2.5rem;
     padding-right: 2.5rem; */
 }
@@ -386,13 +391,13 @@ h3{
 }
 
 .vault-pic{
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
 }
 
 .vault-div{
-    max-width: 600px;
-    max-height: 600px;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 /* .ote{
@@ -555,41 +560,67 @@ h6{
 .t{
     color: #032B69;
 }
-
-@media (min-width:800px) and (max-width: 1024px){
-    .container{
-        max-width: 72rem;
+@media (min-width: 1024px){
+    .first-write-up{
+        max-width: 600px;
     }
+}
+@media (max-width: 1024px){
     .second-section{
         display: flex;
         flex-direction: column;
         gap: 5rem;
     }
-    .video{
-        max-width: 100%;
+    .container{
+        max-width: 72rem;
     }
     .first-image{
-        max-height: 600px;
+        max-height: fit-content;
         max-width: 400px;
         align-self: center;
     }
+    .sec{
+        align-self: center;
+        text-align: center;
+    }
+    .download{
+        display: flex;
+        justify-content: center;
+    }
+    .h3-img-container{
+        flex-direction: column-reverse;
+        gap: 3.5rem;
+    }
+    .vault-take{
+        grid-template-columns: repeat(1, auto);
+    }
+    .fourth{
+        flex-direction: column-reverse;
+        gap: 3.5rem;
+    }
+    .final{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 5rem;
+    }
+
+}
+@media (min-width:800px) and (max-width: 1024px){
+    .video{
+        max-width: 100%;
+    }
+
     .first-write-up{
         font-size: 3.75rem;
         color: #032B69;
+        margin-top: 100px;
+        text-wrap: wrap;
     }
 
     .first-write-up p{
         font-size: 1rem;
         line-height: 1.5rem;
         text-align: center;
-    }
-
-    .sec{
-        align-self: center;
-    }
-    .download{
-        display: flex;
-        justify-content: center;
     }
     .multiple-icons{
         grid-template-columns: repeat(2, 23rem);
@@ -606,38 +637,56 @@ h6{
         overflow: hidden;
         align-items: end;
     }
-
     .iphone-13-Pro{
         margin-right: -348px;
     }
 
     .vault-pic{
-        width: 764px;
-    }
-
-    .h3-img-container{
-        flex-direction: column-reverse;
-        gap: 3.5rem;
-    }
-    .vault-take{
-        grid-template-columns: repeat(1, auto);
+        width: 100%;
     }
     .third div p {
         letter-spacing: -.03em;
     }
-    .fourth{
-        flex-direction: column-reverse;
-        gap: 3.5rem;
-    }
-    .final{
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        gap: 5rem;
-    }
 }
-@media  (max-width: 799px;){
-    .second-section{
+@media  (max-width: 800px){
+    .head-nav {
+        display: none;
+    }
+    
+    .🎹{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        align-self: center;
+    }
+    .first-blue{
+        max-height: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .blue-container-write {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .blue-container-h2p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blue-para{
+        text-align: center;
+    }
+    .bH {
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: white;
+
+    }
+    .multiple-icons{
+        grid-template-columns: repeat(1, 381px);
     }
 }
