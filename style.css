@@ -431,6 +431,8 @@ h3{
 }
 .img-join{
     height: 100%;
+    width: 100%;
+    max-width: fit-content;
 }
 
 h6{
@@ -598,16 +600,17 @@ h6{
         flex-direction: column-reverse;
         gap: 3.5rem;
     }
-    .final{
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        gap: 5rem;
-    }
+
 
 }
 @media (min-width:800px) and (max-width: 1024px){
     .video{
         max-width: 100%;
+    }
+    .final{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 5rem;
     }
 
     .first-write-up{
@@ -688,5 +691,10 @@ h6{
     }
     .multiple-icons{
         grid-template-columns: repeat(1, 381px);
+    }
+    .final{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 5rem;
     }
 }
