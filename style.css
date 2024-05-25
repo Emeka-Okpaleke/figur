@@ -663,6 +663,7 @@ h6{
     .hamburger{
         display: block;
         align-self: center;
+        color: black;
     }
     .first-blue{
         max-height: fit-content;
