@@ -562,6 +562,30 @@ h6{
 .t{
     color: #032B69;
 }
+
+.mobile-hamburger-container{
+    display: none;
+    /* display: flex; */
+    
+}
+
+.mobile-phone-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5rem;
+    
+}
+
+.mobile-phone-nav ul{
+    display: inline;
+}
+
+.registration-buttons{
+    display: flex;
+}
+
 @media (min-width: 1024px){
     .first-write-up{
         max-width: 600px;
