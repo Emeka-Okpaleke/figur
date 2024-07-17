@@ -626,7 +626,7 @@ h6{
     .vault-take{
         grid-template-columns: repeat(1, auto);
     }
-    .fourth{
+    .sixth{
         flex-direction: column-reverse;
         gap: 3.5rem;
     }
